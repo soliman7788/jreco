@@ -1,0 +1,125 @@
+*{
+    color: blue;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: bisque;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+   
+}
+
+.logo{
+    text-decoration: none;
+    color: firebrick;
+    text-transform: uppercase;
+    font-weight: 500px;
+    font-size: 1.8em;
+    padding: 10px 100px;
+    
+}
+
+.navigation a{
+                                                                                                                                                                                                        
+    color: blueviolet;
+    text-decoration: none; 
+    font-size: 1.1em;
+    font-weight: 400; 
+    padding: 5px;
+    
+
+
+}
+
+
+
+.navigation a:hover{
+    color: brown;
+
+}
+
+.hello h1{
+    
+    height: 100vh;
+    font-weight: 800px;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(6, 16, 15, 0.603);
+    size: contain;
+    padding-top: 600px;
+    padding-left: 30px;
+    
+    text-transform: none;
+    background: url(NANE_.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 30px;
+}
+
+
+.main{
+    color: aquamarine;
+    font-size: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.main-p{
+    background-color: chocolate;
+    background-attachment: fixed;
+}   
+
+.title{
+    font-family: "arial";
+    color: beige;
+
+}
+
+.title-p{
+   color: brown;
+    text-align: center;
+    background-color: aqua;
+
+    font-size: 30px; 
+}
+
+.picures img{
+   width: 30%;
+   height: 30%;
+   padding: 20px;
+   padding-left: 100px;
+}
+
+.welcome{
+    color: white;
+    font-family: Times;
+    padding-top: 50px;
+    margin-left: 200PX;
+    margin-bottom: 200PX;
+    
+}
+
+@media  (max-width:1023px){
+    header{
+        padding: 15px 20px;
+    }
+
+    .picures img{
+        padding: 5px 10px;
+    }
+    
+    .hello h1{
+        padding-bottom: 100px;
+    }
+    
+}
+
